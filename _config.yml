@@ -1,0 +1,8 @@
+# Site settings
+
+# the subpath of your site, e.g. /blog/
+baseurl: "/search-exp/" 
+
+# Build settings
+markdown: kramdown
+exclude: [Guardfile]

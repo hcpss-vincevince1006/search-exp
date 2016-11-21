@@ -1,0 +1,64 @@
+---
+layout: default
+title: 
+sidebar_view: no
+---
+
+<div class="hero-heading">
+	<h1>Search our Staff Directory</h1>
+</div>
+
+<form class="contents dir-search section__breakout--full-rounded smtb-mg">
+<p>Look for an HCPSS staff member using any of the fields:</p>
+	<div class="contents dir-search__name--input">
+		<label class="smtb-mg">
+			<span class="sm-rght-mg"><strong>Staff Name</strong></span>
+		<input type="text" name="given-name" value="Metz">	
+		</label>
+	</div>
+	<div class="contents dir-search__location--ddown">
+		<label class="smtb-mg"><span class="sm-rght-mg"><strong>Department</strong></span>
+		<select name="department">
+			<option value="null">-</option>
+			<option value="curriculum-instruction">Curriculum and Instruction</option>
+			<option value="finance">Finance</option>			
+		</select>
+		</label>
+
+		<label class="smtb-mg"><span class="sm-rght-mg"><strong>School</strong></span>
+		<select name="school">
+			<option value="null">-</option>
+			<option value="aes">Atholton Elementary</option>
+		</select>
+		</label>
+	</div>
+	<button style="background-color: #FECC6A;color: black;border-radius: 5px;"><i class="fa fa-search" aria-hidden="true"></i> Search the Directory</button>
+</form>
+
+<div class="contents dir-search__results">
+	<section id="dir-search__results-output">
+		<h2>5 Matches</h2>
+		<section class="dir-search__entry">
+			<div class="dir-search__entry--name">
+				<h3>Mark <span class="selective-hlight">Metz</span>bower</h3>
+			</div>
+			<div class="dir-search__entry--contact">
+				<p>Print Services</p>
+				<p><strong>Position:</strong> Press Operator</p>
+				<p><strong>Phone:</strong> 410-313-6998</p>
+				<p><strong>Location:</strong> <a href="">Applications and Research Lab (ARL) <i class="fa fa-map-marker" aria-hidden="true"></i></a></p>
+			</div>				
+		</section>
+		<section class="dir-search__entry">
+			<div class="dir-search__entry--name">
+				<h3>Laurie <span class="selective-hlight">Metz</span>ler </h3>
+			</div>
+			<div class="dir-search__entry--contact">
+				<p>Mount View Middle School - Food Service</p>
+				<p><strong>Position:</strong> Cafeteria Manager</p>
+				<p><strong>Phone:</strong> 410-313-5545</p>
+				<p><strong>Location:</strong> <a href="">Mount View Middle School <i class="fa fa-map-marker" aria-hidden="true"></i></a></p>
+			</div>				
+		</section>
+	</section>
+</div>
